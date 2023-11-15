@@ -1,0 +1,14 @@
+.custom-img {
+    height: 55px;
+    /* Set your desired fixed height */
+}
+
+.btn-custom {
+    border: none;
+}
+
+.btn-custom:hover {
+    border: none;
+    background-color: rgb(255, 238, 207);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 14px 25px 0 rgba(0, 0, 0, 0.19);
+}
