@@ -53,3 +53,12 @@
     color: black !important;
     transition: 0.5s;
 }
+
+
+@media(max-width: 650px) {
+
+    .portfolio-center {
+        text-align: center;
+    }
+
+}
