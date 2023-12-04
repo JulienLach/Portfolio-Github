@@ -25,7 +25,7 @@
 
 .btn-custom:hover {
     border: none;
-    background-color: rgb(255, 238, 207);
+    background-color: rgb(253, 214, 142);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 14px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -41,18 +41,36 @@
 
 .bi-github:hover {
     color: black !important;
-    transition: 0.5s;
+    transition: 0.3s;
+}
+
+.bi-share {
+    transition: 0.3s;
+}
+
+.bi-share:hover {
+    color: black !important;
+    transition: 0.3s;
+}
+
+.bi-linkedin {
+    transition: 0.3s;
 }
 
 .bi-linkedin:hover {
     color: black !important;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .bi-whatsapp:hover {
     color: black !important;
-    transition: 0.5s;
+    transition: 0.3s;
 }
+
+.bi-whatsapp {
+    transition: 0.3s;
+}
+
 
 
 @media(max-width: 650px) {
