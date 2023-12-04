@@ -1,10 +1,22 @@
 .custom-img {
-    height: 42px;
+    height: 50px;
 }
 
 .custom-tool {
     height: 18px;
     margin-right: 5px;
+}
+
+.custom-link {
+    height: 15px;
+    margin-left: 4px;
+}
+
+.wordpress-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-custom {
@@ -15,4 +27,29 @@
     border: none;
     background-color: rgb(255, 238, 207);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 14px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wordpress-link {
+    text-decoration: none;
+    color: #636363;
+}
+
+.wordpress-link:hover {
+    text-decoration: none;
+    color: #303030;
+}
+
+.bi-github:hover {
+    color: black !important;
+    transition: 0.5s;
+}
+
+.bi-linkedin:hover {
+    color: black !important;
+    transition: 0.5s;
+}
+
+.bi-whatsapp:hover {
+    color: black !important;
+    transition: 0.5s;
 }
